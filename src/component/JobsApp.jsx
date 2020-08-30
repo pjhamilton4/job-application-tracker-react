@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ListJobsComponent from './ListJobsComponent';
+import JobFormComponent from './JobFormComponent';
 
 class JobsApp extends Component {
     render() {
@@ -7,6 +8,7 @@ class JobsApp extends Component {
             <>
                 <h1>Jobs Application</h1>
                 <ListJobsComponent />
+                <JobFormComponent />
             </>
         )
     }
